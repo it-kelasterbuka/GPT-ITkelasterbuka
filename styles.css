@@ -1,0 +1,41 @@
+/* styles.css */
+
+/* Kustomisasi untuk chatbox */
+.chatbox {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+.chatbox .message {
+    margin-bottom: 10px;
+}
+
+.chatbox .message.user {
+    text-align: right;
+}
+
+.chatbox .message.user .message-content {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.chatbox .message.bot .message-content {
+    background-color: #e9ecef;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
